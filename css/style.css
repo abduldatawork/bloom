@@ -543,7 +543,8 @@ p{
 
 #activities-sec .partner-slide img {
     max-width: 100%;
-    margin: 0 40px; 
+    margin: 0 95px; 
+    height: 120px;
 }
 
 
@@ -707,6 +708,7 @@ video {
 #gallery-sec ul li .image img{
 	width:100%;
 	transition: all 0.3s ease-in-out;
+    height: 266.25px;
 }
 #gallery-sec ul li .image:hover img{
 	transform:scale(1.2);
@@ -722,10 +724,13 @@ video {
 	opacity:0;
 }
 #gallery-sec ul li .image:hover .overlay{
-	background:rgba(236, 29, 37, 0.8);
+	background:rgba(34, 139, 34, 0.577);
 	opacity:1;
 }
-#gallery-sec ul li .image .overlay i{ color:#fff; font-size:50px; margin:24% 0;
+#gallery-sec ul li .image .overlay i{ 
+    color:#fff; 
+    font-size:50px; 
+    margin:24% 0;
 }
 
 .callout {
@@ -1326,7 +1331,7 @@ h1 {
 }
 #first-slider .slide1 h4 a, #first-slider .slide2 h4 a, #first-slider .slide3 h4 a, #first-slider .slide4 h4 a {
     color: #fff;
-    background: #ec1d25;
+    background: #228b22;
     display: inline-block;
     border-radius: 3px;
     padding: 0px 15px;
