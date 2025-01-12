@@ -371,22 +371,23 @@ p{
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-	background:url(../images/slide1.jpg);
+	background:url(../images/img-7.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    color: rgba(11,11,11,0.577);
 }
 #first-slider .slide2 {
-	background:url(../images/slide2.jpg);
+	background:url(../images/img-57.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-	background:url(../images/slide3.jpg);
+	background:url(../images/slide-3.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-	background:url(../images/slide4.jpg);
+	background:url(../images/img-59.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -593,10 +594,11 @@ video {
 #projects-sec{
 	display:block;
 	width:100%;
-	background: url(../images/project-bg.jpg);
-	background-size:cover;
-	background-attachment:fixed;
-	background-position:center;
+	/* background: url(../images/project-bg.jpg); */
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-color: #0e6ce8;
 	margin:60px 0;
 	padding:60px 0;
 }
@@ -706,6 +708,7 @@ video {
 	overflow:hidden;
 }
 #gallery-sec ul li .image img{
+    object-fit: cover;
 	width:100%;
 	transition: all 0.3s ease-in-out;
     height: 266.25px;
@@ -858,7 +861,8 @@ video {
 
 #inner-banner{
 	display:block;
-    background:url(../images/inner-bg.jpg) no-repeat center 0;
+    /* background:url(../images/logo-0.jpeg) no-repeat center 0; */
+    background-color: #228b22;
 }
 #inner-banner .overlay{
 	background:rgba(0,0,0,0.7);
